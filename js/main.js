@@ -324,6 +324,102 @@ $box8.on('click', function() {
 
   });
 
+$box9.on('click', function() {
+  $row5.css('background-color', 'yellow');
+  $box9.css('background-color', 'green');
+  $(this).addClass('selected');
+  counter +=1;
+
+  if (counter % 2 === 0) {
+  $column1.css('background-color', 'blue');
+  $row5.css('background-color', 'white');
+  $(this).css('background-color', 'green');
+
+    } else  {
+  $column1.css('background-color', 'white');
+  $row5.css('background-color', 'yellow');
+  $(this).css('background-color', 'green');
+   }
+
+  });
+
+$box10.on('click', function() {
+  $row2.css('background-color', 'yellow');
+  $box10.css('background-color', 'green');
+  $(this).addClass('selected');
+  counter +=1;
+
+  if (counter % 2 === 0) {
+  $column2.css('background-color', 'blue');
+  $row2.css('background-color', 'white');
+  $(this).css('background-color', 'green');
+
+    } else  {
+  $column2.css('background-color', 'white');
+  $row2.css('background-color', 'yellow');
+  $(this).css('background-color', 'green');
+   }
+
+  });
+
+$box11.on('click', function() {
+  $row3.css('background-color', 'yellow');
+  $box11.css('background-color', 'green');
+  $(this).addClass('selected');
+  counter +=1;
+
+  if (counter % 2 === 0) {
+  $column2.css('background-color', 'blue');
+  $row3.css('background-color', 'white');
+  $(this).css('background-color', 'green');
+
+    } else  {
+  $column2.css('background-color', 'white');
+  $row3.css('background-color', 'yellow');
+  $(this).css('background-color', 'green');
+   }
+
+  });
+
+$box12.on('click', function() {
+  $row4.css('background-color', 'yellow');
+  $box12.css('background-color', 'green');
+  $(this).addClass('selected');
+  counter +=1;
+
+  if (counter % 2 === 0) {
+  $column2.css('background-color', 'blue');
+  $row4.css('background-color', 'white');
+  $(this).css('background-color', 'green');
+
+    } else  {
+  $column2.css('background-color', 'white');
+  $row4.css('background-color', 'yellow');
+  $(this).css('background-color', 'green');
+   }
+
+  });
+
+
+$box13.on('click', function() {
+  $row5.css('background-color', 'yellow');
+  $box13.css('background-color', 'green');
+  $(this).addClass('selected');
+  counter +=1;
+
+  if (counter % 2 === 0) {
+  $column5.css('background-color', 'blue');
+  $row5.css('background-color', 'white');
+  $(this).css('background-color', 'green');
+
+    } else  {
+  $column5.css('background-color', 'white');
+  $row1.css('background-color', 'yellow');
+  $(this).css('background-color', 'green');
+   }
+
+  });
+
 
 // }
 
