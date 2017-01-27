@@ -4,9 +4,25 @@
   top:50px;
 }
 
+.sidebar {
+  display: flex;
+}
+.hints {
+  width:150px;
+  height:50px;
+  border-color:red;
+  border-style:solid;
+  position:absolute;
+  left:1000px;
+  top:10px;
+
+}
+
 h1 {
   position:absolute;
   left:1000px;
+  top:50px;
+  white-space:nowrap;
 }
 
 p {
@@ -24,6 +40,16 @@ p {
   border-style:solid;
 }
 
+.textbox1 {
+  width:125px;
+  height:125px;
+  border:0;
+  font-size:150px;
+  background:transparent;
+  position:absolute;
+  left:0;
+}
+
 #box6 {
   background-color:white;
   width:125px;
@@ -33,6 +59,19 @@ p {
   top:150px;
   border-color:black;
   border-style:solid;
+
+}
+
+.textbox6 {
+  width:125px;
+  height:125px;
+  border:0;
+  background:transparent;
+  position:absolute;
+  left:0;
+  font-size:150px;
+  text-align: center
+
 }
 
 #box7 {
@@ -46,6 +85,17 @@ p {
   border-style:solid;
 }
 
+.textbox7 {
+  width:125px;
+  height:125px;
+  border:0;
+  background:transparent;
+  position:absolute;
+  left:0;
+  font-size:150px;
+  text-align: center
+}
+
 #box8 {
   background-color:white;
   width:125px;
@@ -55,6 +105,18 @@ p {
   top:450px;
   border-color:black;
   border-style:solid;
+}
+
+.textbox8 {
+  width:125px;
+  height:125px;
+  border:0;
+  background:transparent;
+  position:absolute;
+  left:0;
+  font-size:150px;
+  text-align:center;
+
 }
 
 #box9 {
@@ -68,6 +130,18 @@ p {
   border-style:solid;
 }
 
+.textbox9 {
+  width:125px;
+  height:125px;
+  border:0;
+  background:transparent;
+  position:absolute;
+  left:0;
+  font-size:150px;
+  text-align:center;
+
+}
+
 #box2 {
   background-color:white;
   width:125px;
@@ -76,6 +150,18 @@ p {
   left:200px;
   border-color:black;
   border-style:solid;
+}
+
+.textbox2 {
+  width:125px;
+  height:125px;
+  border:0;
+  background:transparent;
+  position:absolute;
+  left:0;
+  font-size:150px;
+  text-align:center;
+
 }
 
 #box10 {
@@ -89,6 +175,18 @@ p {
   border-style:solid;
 }
 
+.textbox10 {
+  width:125px;
+  height:125px;
+  border:0;
+  background:transparent;
+  position:absolute;
+  left:0;
+  font-size:150px;
+  text-align:center;
+
+}
+
 #box11 {
   background-color:white;
   width:125px;
@@ -98,6 +196,18 @@ p {
   top:300px;
   border-color:black;
   border-style:solid;
+}
+
+.textbox11 {
+  width:125px;
+  height:125px;
+  border:0;
+  background:transparent;
+  position:absolute;
+  left:0;
+  font-size:150px;
+  text-align:center;
+
 }
 
 #box12 {
@@ -111,6 +221,18 @@ p {
   border-style:solid;
 }
 
+.textbox12 {
+  width:125px;
+  height:125px;
+  border:0;
+  background:transparent;
+  position:absolute;
+  left:0;
+  font-size:150px;
+  text-align:center;
+
+}
+
 #box13 {
   background-color:white;
   width:125px;
@@ -122,6 +244,18 @@ p {
   border-style:solid;
 }
 
+.textbox13 {
+  width:125px;
+  height:125px;
+  border:0;
+  background:transparent;
+  position:absolute;
+  left:0;
+  font-size:150px;
+  text-align:center;
+
+}
+
 #box3 {
   background-color:white;
   width:125px;
@@ -130,6 +264,18 @@ p {
   left:350px;
   border-color:black;
   border-style:solid;
+}
+
+.textbox3 {
+  width:125px;
+  height:125px;
+  border:0;
+  background:transparent;
+  position:absolute;
+  left:0;
+  font-size:150px;
+  text-align:center;
+
 }
 
 #box14 {
@@ -143,6 +289,18 @@ p {
   border-style:solid;
 }
 
+.textbox14 {
+  width:125px;
+  height:125px;
+  border:0;
+  background:transparent;
+  position:absolute;
+  left:0;
+  font-size:150px;
+  text-align:center;
+
+}
+
 #box15 {
   background-color:white;
   width:125px;
@@ -154,6 +312,17 @@ p {
   border-style:solid;
 }
 
+.textbox15 {
+  width:125px;
+  height:125px;
+  border:0;
+  background:transparent;
+  position:absolute;
+  left:0;
+  font-size:150px;
+  text-align:center;
+
+}
 #box16 {
   background-color:white;
   width:125px;
@@ -163,6 +332,18 @@ p {
   top:450px;
   border-color:black;
   border-style:solid;
+}
+
+.textbox16 {
+  width:125px;
+  height:125px;
+  border:0;
+  background:transparent;
+  position:absolute;
+  left:0;
+  font-size:150px;
+  text-align:center;
+
 }
 
 #box17 {
@@ -176,6 +357,17 @@ p {
   border-style:solid;
 }
 
+.textbox17 {
+  width:125px;
+  height:125px;
+  border:0;
+  background:transparent;
+  position:absolute;
+  left:0;
+  font-size:150px;
+  text-align:center;
+}
+
 #box4 {
   background-color:white;
   width:125px;
@@ -184,6 +376,17 @@ p {
   left:500px;
   border-color:black;
   border-style:solid;
+}
+
+.textbox4 {
+  width:125px;
+  height:125px;
+  border:0;
+  background:transparent;
+  position:absolute;
+  left:0;
+  font-size:150px;
+  text-align:center;
 }
 
 #box18 {
@@ -197,6 +400,17 @@ p {
   border-style:solid;
 }
 
+.textbox18 {
+  width:125px;
+  height:125px;
+  border:0;
+  background:transparent;
+  position:absolute;
+  left:0;
+  font-size:150px;
+  text-align:center;
+}
+
 #box19 {
   background-color:white;
   width:125px;
@@ -206,6 +420,17 @@ p {
   top:300px;
   border-color:black;
   border-style:solid;
+}
+
+.textbox19 {
+  width:125px;
+  height:125px;
+  border:0;
+  background:transparent;
+  position:absolute;
+  left:0;
+  font-size:150px;
+  text-align:center;
 }
 
 #box20 {
@@ -219,6 +444,17 @@ p {
   border-style:solid;
 }
 
+.textbox20 {
+  width:125px;
+  height:125px;
+  border:0;
+  background:transparent;
+  position:absolute;
+  left:0;
+  font-size:150px;
+  text-align:center;
+}
+
 #box21 {
   background-color:white;
   width:125px;
@@ -230,6 +466,17 @@ p {
   border-style:solid;
 }
 
+.textbox21 {
+  width:125px;
+  height:125px;
+  border:0;
+  background:transparent;
+  position:absolute;
+  left:0;
+  font-size:150px;
+  text-align:center;
+}
+
 #box5 {
   background-color:white;
   width:125px;
@@ -238,6 +485,17 @@ p {
   left:650px;
   border-color:black;
   border-style:solid;
+}
+
+.textbox5 {
+  width:125px;
+  height:125px;
+  border:0;
+  background:transparent;
+  position:absolute;
+  left:0;
+  font-size:150px;
+  text-align:center;
 }
 
 #box22 {
@@ -251,6 +509,17 @@ p {
   border-style:solid;
 }
 
+.textbox22 {
+  width:125px;
+  height:125px;
+  border:0;
+  background:transparent;
+  position:absolute;
+  left:0;
+  font-size:150px;
+  text-align:center;
+}
+
 #box23 {
   background-color:white;
   width:125px;
@@ -260,6 +529,17 @@ p {
   top:300px;
   border-color:black;
   border-style:solid;
+}
+
+.textbox23 {
+  width:125px;
+  height:125px;
+  border:0;
+  background:transparent;
+  position:absolute;
+  left:0;
+  font-size:150px;
+  text-align:center;
 }
 
 #box24 {
@@ -273,6 +553,18 @@ p {
   border-style:solid;
 }
 
+
+.textbox24 {
+  width:125px;
+  height:125px;
+  border:0;
+  background:transparent;
+  position:absolute;
+  left:0;
+  font-size:150px;
+  text-align:center;
+}
+
 #box25 {
   background-color:white;
   width:125px;
@@ -283,5 +575,17 @@ p {
   border-color:black;
   border-style:solid;
 }
+
+.textbox25 {
+  width:125px;
+  height:125px;
+  border:0;
+  background:transparent;
+  position:absolute;
+  left:0;
+  font-size:150px;
+  text-align:center;
+}
+
 
 
