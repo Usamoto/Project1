@@ -1,3 +1,111 @@
+.title {
+  position:absolute;
+  left:800px;
+  top:-25px;
+}
+
+.hints {
+  width:150px;
+  height:50px;
+  background-color:#FFD855;
+  border-color:black;
+  border-style:solid;
+  position:absolute;
+  left:800px;
+  top:95px;
+}
+
+.submit {
+  width:150px;
+  height:50px;
+  background-color:#FFD855;
+  border-color:black;
+  border-style:solid;
+  position:absolute;
+  left:1000px;
+  top:95px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.acrosstitle {
+  font-color:black;
+  font-size:20px;
+  position:absolute;
+  top:190px;
+  left:800px;
+}
+
+.down {
+  font-color:black;
+  font-size:20px;
+  position:absolute;
+  top:285px;
+  left:800px;
+
+}
+
+.questionone {
+  background-color:grey;
+  font-color:black;
+  font-size:20px;
+  position:absolute;
+  top:225px;
+  left:800px;
+}
+
+.questiontwo {
+  background-color:grey;
+  font-color:black;
+  font-size:20px;f
+  position:absolute;
+  top:250px;
+  left:800px;
+}
+
+.questionthree {
+  font-color:black;
+  font-size:20px;
+  position:absolute;
+  top:370px;
+  left:800px;
+}
+
+.questionfour {
+  font-color:black;
+  font-size:20px;
+  position:absolute;
+  top:395px;
+  left:800px;
+}
+
+.questionfive {
+  font-color:black;
+  font-size:20px;
+  position:absolute;
+  top:420px;
+  left:800px;
+}
+
+.questionsix {
+  background-color:grey;
+  font-color:black;
+  font-size:20px;
+  position:absolute;
+  top:445px;
+  left:800px;
+}
+
+.questionseven {
+  font-color:black;
+  font-size:20px;
+  position:absolute;
+  top:470px;
+  left:800px;
+}
+
 .container {
   display:flex;
   position:absolute;
@@ -6,16 +114,6 @@
 
 .sidebar {
   display: flex;
-}
-.hints {
-  width:150px;
-  height:50px;
-  border-color:red;
-  border-style:solid;
-  position:absolute;
-  left:1000px;
-  top:10px;
-
 }
 
 h1 {
@@ -31,7 +129,7 @@ p {
   top:155px;
 }
 #box1 {
-  background-color:white;
+  background-color:grey;
   width:125px;
   height:125px;
   position:absolute;
@@ -51,7 +149,7 @@ p {
 }
 
 #box6 {
-  background-color:white;
+  background-color:grey;
   width:125px;
   height:125px;
   position:absolute;
@@ -75,7 +173,7 @@ p {
 }
 
 #box7 {
-  background-color:white;
+  background-color:grey;
   width:125px;
   height:125px;
   position:absolute;
@@ -120,7 +218,7 @@ p {
 }
 
 #box9 {
-  background-color:white;
+  background-color:grey;
   width:125px;
   height:125px;
   position:absolute;
@@ -143,7 +241,7 @@ p {
 }
 
 #box2 {
-  background-color:white;
+  background-color:grey;
   width:125px;
   height:125px;
   position:absolute;
@@ -188,7 +286,7 @@ p {
 }
 
 #box11 {
-  background-color:white;
+  background-color:grey;
   width:125px;
   height:125px;
   position:absolute;
@@ -234,7 +332,7 @@ p {
 }
 
 #box13 {
-  background-color:white;
+  background-color:grey;
   width:125px;
   height:125px;
   position:absolute;
@@ -369,7 +467,7 @@ p {
 }
 
 #box4 {
-  background-color:white;
+  background-color:grey;
   width:125px;
   height:125px;
   position:absolute;
@@ -412,7 +510,7 @@ p {
 }
 
 #box19 {
-  background-color:white;
+  background-color:grey;
   width:125px;
   height:125px;
   position:absolute;
@@ -434,7 +532,6 @@ p {
 }
 
 #box20 {
-  background-color:white;
   width:125px;
   height:125px;
   position:absolute;
@@ -456,7 +553,7 @@ p {
 }
 
 #box21 {
-  background-color:white;
+  background-color:grey;
   width:125px;
   height:125px;
   position:absolute;
@@ -543,7 +640,7 @@ p {
 }
 
 #box24 {
-  background-color:white;
+  background-color:grey;
   width:125px;
   height:125px;
   position:absolute;
@@ -566,7 +663,7 @@ p {
 }
 
 #box25 {
-  background-color:white;
+  background-color:grey;
   width:125px;
   height:125px;
   position:absolute;
@@ -587,5 +684,51 @@ p {
   text-align:center;
 }
 
+#box26 {
+  background-color:red;
+  width:125px;
+  height:125px;
+  position:absolute;
+  left:50px;
+  top:750px;
+  border-color:black;
+  border-style:solid;
+}
+
+.textbox26 {
+  width:125px;
+  height:125px;
+  border:0;
+  background:transparent;
+  position:absolute;
+  left:50px;
+  top:750px;
+  font-size:150px;
+  text-align:center;
+
+}
+
+#box27 {
+  background-color:blue;
+  width:125px;
+  height:125px;
+  position:absolute;
+  left:50px;
+  top:900px;
+  border-color:black;
+  border-style:solid;
+}
+
+.textbox27 {
+  width:125px;
+  height:125px;
+  border:0;
+  background:transparent;
+  position:absolute;
+  left:0;
+  font-size:150px;
+  text-align:center;
+
+}
 
 
