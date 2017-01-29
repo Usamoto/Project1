@@ -1,3 +1,32 @@
+/*Flexbox Containers*/
+.container {
+  flex:0;
+  position:absolute;
+  top:50px;
+}
+
+.sidebar {
+  flex:0;
+}
+
+/*Text*/
+ul {
+  list-style-type: none;
+}
+
+h1 {
+  position:absolute;
+  left:1000px;
+  top:50px;
+  white-space:nowrap;
+}
+
+p {
+  position:absolute;
+  left:1000px;
+  top:155px;
+}
+
 .title {
   position:absolute;
   left:830px;
@@ -8,52 +37,6 @@
   font-family:Helvetica;
   font-color:#2c3e50;
 }
-
-.sidebox {
-  width:465px;
-  height:275px;
-  border-color:#2c3e50;
-  border-style:solid;
-  position:absolute;
-  left:800px;
-  top:50px;
-  text-align:center;
-}
-
-.hints {
-  width:150px;
-  height:50px;
-  background-color:#2c3e50;
-  color:white;
-  position:absolute;
-  left:800px;
-  top:95px;
-}
-
-.submit {
-  width:150px;
-  height:50px;
-  background-color:#2c3e50;
-  color:white;
-  position:absolute;
-  left:960px;
-  top:95px;
-}
-
-.autofill {
-  width:150px;
-  height:50px;
-  background-color:#2c3e50;
-  color:white;
-  position:absolute;
-  left:1120px;
-  top:95px;
-}
-
-ul {
-  list-style-type: none;
-}
-
 
 .boxnumber1 {
   font-color:#2c3e50;
@@ -87,7 +70,6 @@ ul {
   top:490px;
 }
 
-
 .downtitle {
   font-color:#2c3e50;
   font-size:20px;
@@ -103,7 +85,6 @@ ul {
   position:absolute;
   top:180px;
   left:-190px;
-
 }
 
 .questionone {
@@ -138,33 +119,49 @@ ul {
   left:-190px;
 }
 
-
-.flexbox {
-  display:flex;
+/*Buttons*/
+.hints {
+  width:150px;
+  height:50px;
+  background-color:#2c3e50;
+  color:white;
+  position:absolute;
+  left:800px;
+  top:95px;
 }
 
-.container {
-  flex:0;
+.submit {
+  width:150px;
+  height:50px;
+  background-color:#2c3e50;
+  color:white;
   position:absolute;
+  left:960px;
+  top:95px;
+}
+
+.autofill {
+  width:150px;
+  height:50px;
+  background-color:#2c3e50;
+  color:white;
+  position:absolute;
+  left:1120px;
+  top:95px;
+}
+
+/*Boxes*/
+.sidebox {
+  width:465px;
+  height:275px;
+  border-color:#2c3e50;
+  border-style:solid;
+  position:absolute;
+  left:800px;
   top:50px;
+  text-align:center;
 }
 
-.sidebar {
-  flex:0;
-}
-
-h1 {
-  position:absolute;
-  left:1000px;
-  top:50px;
-  white-space:nowrap;
-}
-
-p {
-  position:absolute;
-  left:1000px;
-  top:155px;
-}
 #box1 {
   background-color:#2c3e50;
   width:125px;
@@ -212,14 +209,6 @@ p {
   font-color:#2c3e50;
   text-transform:uppercase;
 }
-
-.text1 {
-  position:absolute;
-  left:0;
-  width:125px;
-  height:125px;
-}
-
 
 #box4 {
   background-color:#2c3e50;
@@ -427,7 +416,6 @@ p {
   text-align:center;
   font-color:#2c3e50;
   text-transform:uppercase;
-
 }
 
 #box15 {
@@ -523,7 +511,6 @@ p {
   text-align:center;
   font-size:130px;
   font-color:#2c3e50;
-
 }
 
 .textbox18 {
@@ -629,6 +616,7 @@ p {
   text-align:center;
   font-size:130px;
   font-color:#2c3e50;
+  text-transform:uppercase;
 }
 
 .textbox23 {
@@ -642,7 +630,6 @@ p {
   text-align:center;
   font-color:#2c3e50;
   text-transform:uppercase;
-
 }
 
 #box24 {
