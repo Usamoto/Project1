@@ -1,4 +1,11 @@
-/*Flexbox Containers*/
+input {
+   border: 0px solid;
+  }
+
+.flexbox {
+  display:flex;
+}
+
 .container {
   flex:0;
   position:absolute;
@@ -9,7 +16,6 @@
   flex:0;
 }
 
-/*Text*/
 ul {
   list-style-type: none;
 }
@@ -36,7 +42,7 @@ p {
   text-align:center;
   font-family:Helvetica;
   font-color:#2c3e50;
-}
+  }
 
 .boxnumber1 {
   font-color:#2c3e50;
@@ -151,6 +157,7 @@ p {
 }
 
 /*Boxes*/
+
 .sidebox {
   width:465px;
   height:275px;
@@ -201,13 +208,15 @@ p {
   width:125px;
   height:125px;
   border:0;
-  background:transparent;
+  background-color:transparent;
   position:absolute;
   left:0;
   font-size:150px;
   text-align:center;
   font-color:#2c3e50;
   text-transform:uppercase;
+  border: 0px solid;
+
 }
 
 #box4 {

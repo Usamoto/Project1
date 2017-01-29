@@ -93,8 +93,6 @@ $autoFill.on('click', function() {
   });
 });
 
-
-
 $(".game-boxes input").on("blur", function() {
     var expectedAnswer = answers[$(this).attr("class")];
     var ourAnswer = $(this).val();
@@ -110,8 +108,9 @@ $(".game-boxes input").on("blur", function() {
     $submitButton.on('click', function() {
     if (expectedAnswer === ourAnswer) {
     $(".game-boxes input").css('background-color', 'black');
-
-  };
+    } else {
+      $(".game-boxes input").css('background-color', 'red');
+   };
  });
 });
 

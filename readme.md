@@ -1,31 +1,65 @@
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Project #1: The Game
 
-### Overview
+### About Rachel's Mini Crossword Puzzle 
 
-Let's start out with something fun - **a game!**
+### Technologies Used
+* ** Language: JQuery JavaScript Library 
+  - Event listeners ("click", "blur", "keydown")
+  - If/else statements
+  - Two counters ("counter", "victorycounter")
+  - Two alert functions ("Hints", "Submit")
+* ** CSS 
+  - Position: absolute
+  - Flexbox 
+* ** HTML 
+  - Divs (one div per crossword puzzle box)
+  - Input (one input box per game-box)
+  - Three buttons ("Hints", "Submit", "Answers")
 
-Everyone will get a chance to **be creative**, and work through some really **tough programming challenges** – it's up to you to come up with a fun and interesting game to build.
+### Approach taken
+* ** I chose to create a crossword puzzle because I was interested in creating the logic to change the colors for each game box. I was inspired by the design of the mini crossword puzzle on the New York Times website. I approached this project by creating the logic first and ensuring that I was able to adjust the css for each game box with Javascript before adding in the actual crossword puzzle.  
 
-**You will be working individually for this project**, but we'll be guiding you along the process and helping as you go. Show us what you've got!
+For the logic, I isolated each game box by creating a unique div and class per game box. Within the Javascript, I created a "click" event listener and a counter to keep track of the amount of clicks that each box will receive. The CSS attributes for each box and corresponding columns/rows will alternate based each "click". 
+
+I added an input box to each box that is used within the crossword puzzle which will allow the user to enter in their answers for each crossword puzzle question. The "submit" button will let the user know if they have correctly completed the puzzle. 
+
+<!-- If all of the answers are correct the game boxes will turn black. If the puzzle was incorrectly completed, an alert will show up and state "Sorry! Try Again!". The "hints" button will provide  -->
+
+### User Stories 
+* ** The user should be able to read the crossword puzzle questions
+* ** The user should be able to input an answer into the game box
+* ** The user should be able to access one hint per question through the "hints" button
+* ** The user should be able to view the correct answers through the "Answers" button
+* ** The user should be able to submit their answers or the answers provided by the "Answers" button through the "Submit" button
+* ** The user should be able to know if they have correctly or incorrectly answered the puzzle questions. 
+- If the puzzle was answered correctly, all of the game boxes will turn black
+- If the puzzle was answered incorrectly, all of the game boxes will turn red. 
+* ** The user should be able to "click" or use the "keydown" feature to navigate through the puzzle. 
+* ** The user should be able to view the crossword puzzle boxes that are not in use by the dark blue color. 
+- The user should be able to view the crossword puzzle box that they are currently in by the blue color.
+-The user should be able to view the "column" or "row" that they are currently in through the light blue color. 
+
+### Wireframes
+<img src="Wireframe1.pdf">
+<img src="Wireframe2.pdf">
+<img src="Wireframe3.pdf">
+
+### How To Instructions
 
 
----
 
-### Technical Requirements
+### Unsolved Problems 
+* ** Responsiveness 
+- Desktop 
+- Mobile 
+* ** "Answers" button
+- Limit the amount of times the answers are inputted
+   
 
-Your app must:
 
-* **Render the game in the browser**
-* **Design and implement logic for winning** & **visually display a win or loss state or which player won in a 2 player game**
-* **Include separate HTML / CSS / JavaScript files**
-* Use the **KISS (Keep It Simple Stupid)** and **DRY (Don't Repeat Yourself)** principles
-* Use **Vanilla JavaScript** or **jQuery** for **DOM manipulation**
-* **Deploy your game online**, where the rest of the world can access it [To be shown on Thursday - Github Pages]
-* Use **responsive design** for HTML and CSS (adhere to best practices)
 
----
 
-### Necessary Deliverables
+
+
 
 * A **working game, built by you**, hosted on the internet
 * A **git repository hosted on Github**, with a link to your hosted game in the URL section, and **frequent** commits dating back to the very beginning of the project
