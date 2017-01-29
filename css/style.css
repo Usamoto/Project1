@@ -1,15 +1,30 @@
 .title {
   position:absolute;
+  left:830px;
+  top:25px;
+  flex:0;
+  font-size:40px;
+  text-align:center;
+  font-family:Helvetica;
+  font-color:#2c3e50;
+}
+
+.sidebox {
+  width:465px;
+  height:275px;
+  border-color:#2c3e50;
+  border-style:solid;
+  position:absolute;
   left:800px;
-  top:-25px;
+  top:50px;
+  text-align:center;
 }
 
 .hints {
   width:150px;
   height:50px;
-  background-color:#FFD855;
-  border-color:black;
-  border-style:solid;
+  background-color:#2c3e50;
+  color:white;
   position:absolute;
   left:800px;
   top:95px;
@@ -18,22 +33,20 @@
 .submit {
   width:150px;
   height:50px;
-  background-color:#FFD855;
-  border-color:black;
-  border-style:solid;
+  background-color:#2c3e50;
+  color:white;
   position:absolute;
-  left:1000px;
+  left:960px;
   top:95px;
 }
 
 .autofill {
   width:150px;
   height:50px;
-  background-color:#FFD855;
-  border-color:black;
-  border-style:solid;
+  background-color:#2c3e50;
+  color:white;
   position:absolute;
-  left:1200px;
+  left:1120px;
   top:95px;
 }
 
@@ -43,7 +56,7 @@ ul {
 
 
 .boxnumber1 {
-  font-color:black;
+  font-color:#2c3e50;
   font-size:20px;
   position:absolute;
   left:355px;
@@ -51,7 +64,7 @@ ul {
 }
 
 .boxnumber2 {
-  font-color:black;
+  font-color:#2c3e50;
   font-size:20px;
   position:absolute;
   left:655px;
@@ -59,7 +72,7 @@ ul {
 }
 
 .boxnumber3{
-  font-color:black;
+  font-color:#2c3e50;
   font-size:20px;
   position:absolute;
   left:205px;
@@ -67,7 +80,7 @@ ul {
 }
 
 .boxnumber4{
-  font-color:black;
+  font-color:#2c3e50;
   font-size:20px;
   position:absolute;
   left:55px;
@@ -76,87 +89,68 @@ ul {
 
 
 .downtitle {
-  font-color:black;
+  font-color:#2c3e50;
   font-size:20px;
   position:absolute;
-  top:190px;
-  left:800px;
+  top:80px;
+  left:-190px;
+  font-family:helvetica;
 }
 
 .across {
-  font-color:black;
+  font-color:#2c3e50;
   font-size:20px;
   position:absolute;
-  top:285px;
-  left:800px;
+  top:180px;
+  left:-190px;
 
 }
 
 .questionone {
-  font-color:black;
+  font-color:#2c3e50;
   font-size:20px;
   position:absolute;
-  top:225px;
-  left:800px;
+  top:110px;
+  left:-190px;
 }
 
 .questiontwo {
-  font-color:black;
+  font-color:#2c3e50;
   font-size:20px;
   position:absolute;
-  top:250px;
-  left:800px;
+  top:130px;
+  left:-190px;
 }
 
 .questionthree {
-  font-color:black;
+  font-color:#2c3e50;
   font-size:20px;
   position:absolute;
-  top:370px;
-  left:800px;
+  top:210px;
+  left:-190px;
 }
 
 .questionfour {
-  font-color:black;
+  font-color:#2c3e50;
   font-size:20px;
   position:absolute;
-  top:395px;
-  left:800px;
+  top:230px;
+  left:-190px;
 }
 
-.questionfive {
-  font-color:black;
-  font-size:20px;
-  position:absolute;
-  top:420px;
-  left:800px;
-}
 
-.questionsix {
-  background-color:grey;
-  font-color:black;
-  font-size:20px;
-  position:absolute;
-  top:445px;
-  left:800px;
-}
-
-.questionseven {
-  font-color:black;
-  font-size:20px;
-  position:absolute;
-  top:470px;
-  left:800px;
+.flexbox {
+  display:flex;
 }
 
 .container {
-  display:flex;
+  flex:0;
   position:absolute;
   top:50px;
 }
 
 .sidebar {
-  display: flex;
+  flex:0;
 }
 
 h1 {
@@ -172,23 +166,25 @@ p {
   top:155px;
 }
 #box1 {
-  background-color:grey;
+  background-color:#2c3e50;
   width:125px;
   height:125px;
   position:absolute;
   left:50px;
-  border-color:black;
+  border-color:#2c3e50;
   border-style:solid;
+  font-color:#2c3e50;
 }
 
 #box2 {
-  background-color:grey;
+  background-color:#2c3e50;
   width:125px;
   height:125px;
   position:absolute;
   left:200px;
-  border-color:black;
+  border-color:#2c3e50;
   border-style:solid;
+  font-color:#2c3e50;
 }
 
 #box3 {
@@ -197,11 +193,11 @@ p {
   height:125px;
   position:absolute;
   left:350px;
-  border-color:black;
+  border-color:#2c3e50;
   border-style:solid;
   text-align:center;
   font-size:130px;
-  font-color:black;
+  font-color:#2c3e50;
 }
 
 .textbox3 {
@@ -213,7 +209,8 @@ p {
   left:0;
   font-size:150px;
   text-align:center;
-  font-color:black;
+  font-color:#2c3e50;
+  text-transform:uppercase;
 }
 
 .text1 {
@@ -225,13 +222,14 @@ p {
 
 
 #box4 {
-  background-color:grey;
+  background-color:#2c3e50;
   width:125px;
   height:125px;
   position:absolute;
   left:500px;
-  border-color:black;
+  border-color:#2c3e50;
   border-style:solid;
+  font-color:#2c3e50;
 }
 
 #box5 {
@@ -240,11 +238,11 @@ p {
   height:125px;
   position:absolute;
   left:650px;
-  border-color:black;
+  border-color:#2c3e50;
   border-style:solid;
   text-align:center;
   font-size:130px;
-  font-color:black;
+  font-color:#2c3e50;
 }
 
 .textbox5 {
@@ -256,29 +254,33 @@ p {
   left:0;
   font-size:150px;
   text-align:center;
+  font-color:#2c3e50;
+  text-transform:uppercase;
 }
 
 #box6 {
-  background-color:grey;
+  background-color:#2c3e50;
   width:125px;
   height:125px;
   position:absolute;
   left:50px;
   top:150px;
-  border-color:black;
+  border-color:#2c3e50;
   border-style:solid;
+  font-color:#2c3e50;
 
 }
 
 #box7 {
-  background-color:grey;
+  background-color:#2c3e50;
   width:125px;
   height:125px;
   position:absolute;
   left:50px;
   top:300px;
-  border-color:black;
+  border-color:#2c3e50;
   border-style:solid;
+  font-color:#2c3e50;
 }
 
 #box8 {
@@ -288,11 +290,11 @@ p {
   position:absolute;
   left:50px;
   top:450px;
-  border-color:black;
+  border-color:#2c3e50;
   border-style:solid;
   text-align:center;
   font-size:130px;
-  font-color:black;
+  font-color:#2c3e50;
 }
 
 .textbox8 {
@@ -304,17 +306,20 @@ p {
   left:0;
   font-size:150px;
   text-align:center;
+  font-color:#2c3e50;
+  text-transform:uppercase;
 }
 
 #box9 {
-  background-color:grey;
+  background-color:#2c3e50;
   width:125px;
   height:125px;
   position:absolute;
   left:50px;
   top:600px;
-  border-color:black;
+  border-color:#2c3e50;
   border-style:solid;
+  font-color:#2c3e50;
 }
 
 #box10 {
@@ -324,11 +329,11 @@ p {
   position:absolute;
   left:200px;
   top:150px;
-  border-color:black;
+  border-color:#2c3e50;
   border-style:solid;
   text-align:center;
   font-size:130px;
-  font-color:black;
+  font-color:#2c3e50;
 }
 
 .textbox10 {
@@ -340,18 +345,21 @@ p {
   left:0;
   font-size:150px;
   text-align:center;
+  font-color:#2c3e50;
+  text-transform:uppercase;
 
 }
 
 #box11 {
-  background-color:grey;
+  background-color:#2c3e50;
   width:125px;
   height:125px;
   position:absolute;
   left:200px;
   top:300px;
-  border-color:black;
+  border-color:#2c3e50;
   border-style:solid;
+  font-color:#2c3e50;
 }
 
 #box12 {
@@ -361,11 +369,11 @@ p {
   position:absolute;
   left:200px;
   top:450px;
-  border-color:black;
+  border-color:#2c3e50;
   border-style:solid;
   text-align:center;
   font-size:130px;
-  font-color:black;
+  font-color:#2c3e50;
 }
 
 .textbox12 {
@@ -377,18 +385,21 @@ p {
   left:0;
   font-size:150px;
   text-align:center;
+  font-color:#2c3e50;
+  text-transform:uppercase;
 
 }
 
 #box13 {
-  background-color:grey;
+  background-color:#2c3e50;
   width:125px;
   height:125px;
   position:absolute;
   left:200px;
   top:600px;
-  border-color:black;
+  border-color:#2c3e50;
   border-style:solid;
+  font-color:#2c3e50;
 }
 
 #box14 {
@@ -398,11 +409,11 @@ p {
   position:absolute;
   left:350px;
   top:150px;
-  border-color:black;
+  border-color:#2c3e50;
   border-style:solid;
   text-align:center;
   font-size:130px;
-  font-color:black;
+  font-color:#2c3e50;
 }
 
 .textbox14 {
@@ -414,6 +425,8 @@ p {
   left:0;
   font-size:150px;
   text-align:center;
+  font-color:#2c3e50;
+  text-transform:uppercase;
 
 }
 
@@ -428,7 +441,7 @@ p {
   border-style:solid;
   text-align:center;
   font-size:130px;
-  font-color:black;
+  font-color:#2c3e50;
 }
 
 .textbox15 {
@@ -440,8 +453,10 @@ p {
   left:0;
   font-size:150px;
   text-align:center;
-
+  font-color:#2c3e50;
+  text-transform:uppercase;
 }
+
 #box16 {
   background-color:white;
   width:125px;
@@ -449,11 +464,11 @@ p {
   position:absolute;
   left:350px;
   top:450px;
-  border-color:black;
+  border-color:#2c3e50;
   border-style:solid;
   text-align:center;
   font-size:130px;
-  font-color:black;
+  font-color:#2c3e50;
 }
 
 .textbox16 {
@@ -465,7 +480,8 @@ p {
   left:0;
   font-size:150px;
   text-align:center;
-
+  font-color:#2c3e50;
+  text-transform:uppercase;
 }
 
 #box17 {
@@ -475,11 +491,11 @@ p {
   position:absolute;
   left:350px;
   top:600px;
-  border-color:black;
+  border-color:#2c3e50;
   border-style:solid;
   text-align:center;
   font-size:130px;
-  font-color:black;
+  font-color:#2c3e50;
 }
 
 .textbox17 {
@@ -491,6 +507,8 @@ p {
   left:0;
   font-size:150px;
   text-align:center;
+  font-color:#2c3e50;
+  text-transform:uppercase;
 }
 
 #box18 {
@@ -500,11 +518,11 @@ p {
   position:absolute;
   left:500px;
   top:150px;
-  border-color:black;
+  border-color:#2c3e50;
   border-style:solid;
   text-align:center;
   font-size:130px;
-  font-color:black;
+  font-color:#2c3e50;
 
 }
 
@@ -517,17 +535,20 @@ p {
   left:0;
   font-size:150px;
   text-align:center;
+  font-color:#2c3e50;
+  text-transform:uppercase;
 }
 
 #box19 {
-  background-color:grey;
+  background-color:#2c3e50;
   width:125px;
   height:125px;
   position:absolute;
   left:500px;
   top:300px;
-  border-color:black;
+  border-color:#2c3e50;
   border-style:solid;
+  font-color:#2c3e50;
 }
 
 #box20 {
@@ -537,11 +558,11 @@ p {
   position:absolute;
   left:500px;
   top:450px;
-  border-color:black;
+  border-color:#2c3e50;
   border-style:solid;
   text-align:center;
   font-size:130px;
-  font-color:black;
+  font-color:#2c3e50;
 }
 
 .textbox20 {
@@ -553,17 +574,20 @@ p {
   left:0px;
   font-size:150px;
   text-align:center;
+  font-color:#2c3e50;
+  text-transform:uppercase;
 }
 
 #box21 {
-  background-color:grey;
+  background-color:#2c3e50;
   width:125px;
   height:125px;
   position:absolute;
   left:500px;
   top:600px;
-  border-color:black;
+  border-color:#2c3e50;
   border-style:solid;
+  font-color:#2c3e50;
 }
 
 #box22 {
@@ -573,11 +597,11 @@ p {
   position:absolute;
   left:650px;
   top:150px;
-  border-color:black;
+  border-color:#2c3e50;
   border-style:solid;
   text-align:center;
   font-size:130px;
-  font-color:black;
+  font-color:#2c3e50;
 }
 
 .textbox22 {
@@ -589,6 +613,8 @@ p {
   left:0;
   font-size:150px;
   text-align:center;
+  font-color:#2c3e50;
+  text-transform:uppercase;
 }
 
 #box23 {
@@ -598,11 +624,11 @@ p {
   position:absolute;
   left:650px;
   top:300px;
-  border-color:black;
+  border-color:#2c3e50;
   border-style:solid;
   text-align:center;
   font-size:130px;
-  font-color:black;
+  font-color:#2c3e50;
 }
 
 .textbox23 {
@@ -614,27 +640,32 @@ p {
   left:0;
   font-size:150px;
   text-align:center;
+  font-color:#2c3e50;
+  text-transform:uppercase;
+
 }
 
 #box24 {
-  background-color:grey;
+  background-color:#2c3e50;
   width:125px;
   height:125px;
   position:absolute;
   left:650px;
   top:450px;
-  border-color:black;
+  border-color:#2c3e50;
   border-style:solid;
+  font-color:#2c3e50;
 }
 
 #box25 {
-  background-color:grey;
+  background-color:#2c3e50;
   width:125px;
   height:125px;
   position:absolute;
   left:650px;
   top:600px;
-  border-color:black;
+  border-color:#2c3e50;
   border-style:solid;
+  font-color:#2c3e50;
 }
 

@@ -139,27 +139,27 @@ $hintButton.on("click", function() {
 
 $box3.on('click keydown', function() {
   clickedBox = 1;
-  $gameBoxes.css("background-color", "white");
-  $questionBox.css('background-color', 'white');
-  $questionone.css('background-color', '#FFD855');
-  $column3.css('background-color', '#FFD855');
-  $box3.css('background-color', 'green');
+  $gameBoxes.css("background-color","white");
+  $questionBox.css('background-color','white');
+  $questionone.css('background-color','');
+  $column3.css('background-color','#94C7FF');
+  $box3.css('background-color', '#4B79A1');
   $(this).addClass('selected');
   counter +=1;
 
   if (counter % 2 === 0) {
 
   $gameBoxes.css("background-color", "white");
-  $questionBox.css('background-color', 'white');
-  $questionone.css('background-color', '#FFD855');
-  $(this).css('background-color', 'green');
+  $questionBox.css('background-color','white');
+  $questionone.css('background-color','#94C7FF');
+  $(this).css('background-color', '#4B79A1');
 
   } else {
   $gameBoxes.css("background-color", "white");
   $questionBox.css('background-color', 'white');
-  $questionone.css('background-color', '#FFD855');
-  $column3.css('background-color', '#FFD855');
-  $(this).css('background-color', 'green');
+  $questionone.css('background-color', '#94C7FF');
+  $column3.css('background-color', '#94C7FF');
+  $(this).css('background-color', '#4B79A1');
    };
 
  });
@@ -168,9 +168,9 @@ $box5.on('click keydown', function() {
   clickedBox = 2;
   $gameBoxes.css("background-color", "white");
   $questionBox.css('background-color', 'white');
-  $column5.css('background-color', '#FFD855');
-  $questiontwo.css('background-color', '#FFD855');
-  $box5.css('background-color', 'green');
+  $column5.css('background-color', '#94C7FF');
+  $questiontwo.css('background-color', '#94C7FF');
+  $box5.css('background-color', '#4B79A1');
   $(this).addClass('selected');
   counter +=1;
 
@@ -178,15 +178,15 @@ $box5.on('click keydown', function() {
 
   $gameBoxes.css("background-color", "white");
   $questionBox.css('background-color', 'white');
-  $questiontwo.css('background-color', '#FFD855');
-  $(this).css('background-color', 'green');
+  $questiontwo.css('background-color', '#94C7FF');
+  $(this).css('background-color', '#4B79A1');
 
   } else {
   $gameBoxes.css("background-color", "white");
   $questionBox.css('background-color', 'white');
-  $questiontwo.css('background-color', '#FFD855');
-  $column5.css('background-color', '#FFD855');
-  $(this).css('background-color', 'green');
+  $questiontwo.css('background-color', '#94C7FF');
+  $column5.css('background-color', '#94C7FF');
+  $(this).css('background-color', '#4B79A1');
    };
 
   });
@@ -195,9 +195,9 @@ $box8.on('click keydown', function() {
   clickedBox = 4;
   $gameBoxes.css("background-color", "white");
   $questionBox.css('background-color', 'white');
-  $questionfour.css('background-color', '#FFD855');
-  $row4.css('background-color','#FFD855');
-  $box8.css('background-color','green');
+  $questionfour.css('background-color', '#94C7FF');
+  $row4.css('background-color','#94C7FF');
+  $box8.css('background-color','#4B79A1');
   $(this).addClass('selected');
   counter +=1;
 
@@ -205,17 +205,17 @@ $box8.on('click keydown', function() {
 
   $gameBoxes.css("background-color", "white");
   $questionBox.css('background-color', 'white');
-  $questionfour.css('background-color', '#FFD855');
-  $column1.css('background-color', '#FFD855');
-  $(this).css('background-color', 'green');
+  $questionfour.css('background-color', '#94C7FF');
+  $column1.css('background-color', '#94C7FF');
+  $(this).css('background-color', '#4B79A1');
 
     } else  {
 
   $gameBoxes.css("background-color", "white");
   $questionBox.css('background-color', 'white');
-  $questionfour.css('background-color', '#FFD855');
-  $row4.css('background-color', '#FFD855');
-  $(this).css('background-color', 'green');
+  $questionfour.css('background-color', '#94C7FF');
+  $row4.css('background-color', '#94C7FF');
+  $(this).css('background-color', '#4B79A1');
    };
 
   });
@@ -224,23 +224,23 @@ $box10.on('click keydown', function() {
   clickedBox = 3;
   $gameBoxes.css("background-color", "white");
   $questionBox.css('background-color', 'white');
-  $questionthree.css('background-color', '#FFD855');
-  $row2.css('background-color', '#FFD855');
-  $box10.css('background-color', 'green');
+  $questionthree.css('background-color', '#94C7FF');
+  $row2.css('background-color', '#94C7FF');
+  $box10.css('background-color', '#4B79A1');
   counter +=1;
 
   if (counter % 2 === 0) {
   $gameBoxes.css("background-color", "white");
   $questionBox.css('background-color', 'white');
-  $questionthree.css('background-color', '#FFD855');
-  $(this).css('background-color', 'green');
+  $questionthree.css('background-color', '#94C7FF');
+  $(this).css('background-color', '#4B79A1');
 
   } else  {
   $gameBoxes.css("background-color", "white");
   $questionBox.css('background-color', 'white');
-  $questionthree.css('background-color', '#FFD855');
-  $row2.css('background-color', '#FFD855');
-  $(this).css('background-color', 'green');
+  $questionthree.css('background-color', '#94C7FF');
+  $row2.css('background-color', '#94C7FF');
+  $(this).css('background-color', '#4B79A1');
    }
 
   });
@@ -249,21 +249,21 @@ $box12.on('click keydown', function() {
   clickedBox = 12;
   $gameBoxes.css("background-color", "white");
   $questionBox.css('background-color', 'white');
-  $row4.css('background-color', '#FFD855');
-  $box12.css('background-color', 'green');
+  $row4.css('background-color', '#94C7FF');
+  $box12.css('background-color', '#4B79A1');
   $(this).addClass('selected');
   counter +=1;
 
   if (counter % 2 === 0) {
   $gameBoxes.css("background-color", "white");
   $questionBox.css('background-color', 'white');
-  $(this).css('background-color', 'green');
+  $(this).css('background-color', '#4B79A1');
 
   } else  {
   $gameBoxes.css("background-color", "white");
   $questionBox.css('background-color', 'white');
-  $row4.css('background-color', '#FFD855');
-  $(this).css('background-color', 'green');
+  $row4.css('background-color', '#94C7FF');
+  $(this).css('background-color', '#4B79A1');
    }
 
   });
@@ -272,8 +272,8 @@ $box14.on('click keydown', function() {
   clickedBox = 14;
   $gameBoxes.css("background-color", "white");
   $questionBox.css('background-color', 'white');
-  $row2.css('background-color', '#FFD855');
-  $box14.css('background-color', 'green');
+  $row2.css('background-color', '#94C7FF');
+  $box14.css('background-color', '#4B79A1');
   $(this).addClass('selected');
   counter +=1;
 
@@ -281,15 +281,15 @@ $box14.on('click keydown', function() {
 
   $gameBoxes.css("background-color", "white");
   $questionBox.css('background-color', 'white');
-  $column3.css('background-color', '#FFD855');
-  $(this).css('background-color', 'green');
+  $column3.css('background-color', '#94C7FF');
+  $(this).css('background-color', '#4B79A1');
 
     } else  {
 
   $gameBoxes.css("background-color", "white");
   $questionBox.css('background-color', 'white');
-  $row2.css('background-color', '#FFD855');
-  $(this).css('background-color', 'green');
+  $row2.css('background-color', '#94C7FF');
+  $(this).css('background-color', '#4B79A1');
    };
 
   });
@@ -298,8 +298,8 @@ $box15.on('click keydown', function() {
   clickedBox = 15;
   $gameBoxes.css("background-color", "white");
   $questionBox.css('background-color', 'white');
-  $column3.css('background-color', '#FFD855')
-  $box15.css('background-color', 'green');
+  $column3.css('background-color', '#94C7FF')
+  $box15.css('background-color', '#4B79A1');
   $box15.addClass('selected');
   counter +=1;
 
@@ -307,14 +307,14 @@ $box15.on('click keydown', function() {
 
   $gameBoxes.css("background-color", "white");
   $questionBox.css('background-color', 'white');
-  $(this).css('background-color', 'green');
+  $(this).css('background-color', '#4B79A1');
 
   } else {
 
   $gameBoxes.css("background-color", "white");
   $questionBox.css('background-color', 'white');
-  $column3.css('background-color', '#FFD855')
-  $(this).css('background-color', 'green');
+  $column3.css('background-color', '#94C7FF')
+  $(this).css('background-color', '#4B79A1');
 
   };
   });
@@ -323,8 +323,8 @@ $box16.on('click keydown', function() {
   clickedBox = 16;
   $gameBoxes.css("background-color", "white");
   $questionBox.css('background-color', 'white');
-  $row4.css('background-color', '#FFD855');
-  $box16.css('background-color', 'green');
+  $row4.css('background-color', '#94C7FF');
+  $box16.css('background-color', '#4B79A1');
   $(this).addClass('selected');
   counter +=1;
 
@@ -332,15 +332,15 @@ $box16.on('click keydown', function() {
 
   $gameBoxes.css("background-color", "white");
   $questionBox.css('background-color', 'white');
-  $column3.css('background-color', '#FFD855');
-  $(this).css('background-color', 'green');
+  $column3.css('background-color', '#94C7FF');
+  $(this).css('background-color', '#4B79A1');
 
     } else  {
 
   $gameBoxes.css("background-color", "white");
   $questionBox.css('background-color', 'white');
-  $row4.css('background-color', '#FFD855');
-  $(this).css('background-color', 'green');
+  $row4.css('background-color', '#94C7FF');
+  $(this).css('background-color', '#4B79A1');
    };
 
   });
@@ -349,21 +349,21 @@ $box17.on('click keydown', function() {
   clickedBox = 17;
   $gameBoxes.css("background-color", "white");
   $questionBox.css('background-color', 'white');
-  $column3.css('background-color','#FFD855');
-  $box17.css('background-color', 'green');
+  $column3.css('background-color','#94C7FF');
+  $box17.css('background-color', '#4B79A1');
   $(this).addClass('selected');
   counter +=1;
 
   if (counter % 2 === 0) {
   $gameBoxes.css("background-color", "white");
   $questionBox.css('background-color', 'white');
-  $(this).css('background-color', 'green');
+  $(this).css('background-color', '#4B79A1');
 
   } else  {
   $gameBoxes.css("background-color", "white");
   $questionBox.css('background-color', 'white');
-  $column3.css('background-color', '#FFD855');
-  $(this).css('background-color', 'green');
+  $column3.css('background-color', '#94C7FF');
+  $(this).css('background-color', '#4B79A1');
    }
 
   });
@@ -372,21 +372,21 @@ $box18.on('click keydown', function() {
   clickedBox = 18;
   $gameBoxes.css("background-color", "white");
   $questionBox.css('background-color', 'white');
-  $row2.css('background-color', '#FFD855');
-  $box18.css('background-color', 'green');
+  $row2.css('background-color', '#94C7FF');
+  $box18.css('background-color', '#4B79A1');
   $(this).addClass('selected');
   counter +=1;
 
   if (counter % 2 === 0) {
   $gameBoxes.css("background-color", "white");
   $questionBox.css('background-color', 'white');
-  $(this).css('background-color', 'green');
+  $(this).css('background-color', '#4B79A1');
 
   } else  {
   $gameBoxes.css("background-color", "white");
   $questionBox.css('background-color', 'white');
-  $row2.css('background-color', '#FFD855');
-  $(this).css('background-color', 'green');
+  $row2.css('background-color', '#94C7FF');
+  $(this).css('background-color', '#4B79A1');
    };
 
   });
@@ -395,8 +395,8 @@ $box20.on('click keydown', function() {
   clickedBox = 20;
   $gameBoxes.css("background-color", "white");
   $questionBox.css('background-color', 'white');
-  $row4.css('background-color', '#FFD855');
-  $box20.css('background-color', 'green');
+  $row4.css('background-color', '#94C7FF');
+  $box20.css('background-color', '#4B79A1');
   $(this).addClass('selected');
   counter +=1;
 
@@ -404,13 +404,13 @@ $box20.on('click keydown', function() {
 
   $gameBoxes.css("background-color", "white");
   $questionBox.css('background-color', 'white');
-  $box20.css('background-color', 'green');
+  $box20.css('background-color', '#4B79A1');
   } else  {
 
   $gameBoxes.css("background-color", "white");
   $questionBox.css('background-color', 'white');
-  $row4.css('background-color', '#FFD855');
-  $(this).css('background-color', 'green');
+  $row4.css('background-color', '#94C7FF');
+  $(this).css('background-color', '#4B79A1');
    };
 
   });
@@ -419,8 +419,8 @@ $box22.on('click keydown', function() {
   clickedBox = 22;
   $gameBoxes.css("background-color", "white");
   $questionBox.css('background-color', 'white');
-  $row2.css('background-color', '#FFD855');
-  $box22.css('background-color', 'green');
+  $row2.css('background-color', '#94C7FF');
+  $box22.css('background-color', '#4B79A1');
   $(this).addClass('selected');
   counter +=1;
 
@@ -428,15 +428,15 @@ $box22.on('click keydown', function() {
 
   $gameBoxes.css("background-color", "white");
   $questionBox.css('background-color', 'white');
-  $column5.css('background-color', '#FFD855');
-  $(this).css('background-color', 'green');
+  $column5.css('background-color', '#94C7FF');
+  $(this).css('background-color', '#4B79A1');
 
     } else  {
 
   $gameBoxes.css("background-color", "white");
   $questionBox.css('background-color', 'white');
-  $row2.css('background-color', '#FFD855');
-  $(this).css('background-color', 'green');
+  $row2.css('background-color', '#94C7FF');
+  $(this).css('background-color', '#4B79A1');
    }
 
   });
@@ -445,21 +445,21 @@ $box23.on('click keydown', function() {
   clickedBox = 23;
   $gameBoxes.css("background-color", "white");
   $questionBox.css('background-color', 'white');
-  $column5.css('background-color', '#FFD855');
-  $box23.css('background-color', 'green');
+  $column5.css('background-color', '#94C7FF');
+  $box23.css('background-color', '#4B79A1');
   $(this).addClass('selected');
   counter +=1;
 
   if (counter % 2 === 0) {
   $gameBoxes.css("background-color", "white");
   $questionBox.css('background-color', 'white');
-  $(this).css('background-color', 'green');
+  $(this).css('background-color', '#4B79A1');
 
   } else  {
   $gameBoxes.css("background-color", "white");
   $questionBox.css('background-color', 'white');
-  $column5.css('background-color', '#FFD855');
-  $(this).css('background-color', 'green');
+  $column5.css('background-color', '#94C7FF');
+  $(this).css('background-color', '#4B79A1');
 
   };
   });
