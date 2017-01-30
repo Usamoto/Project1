@@ -41,8 +41,8 @@ Addition features include a "hint" and "autofill" button.
 
 ### Wireframes
 <img src="Wireframe1.pdf">
-<img src="Wireframe2.pdf">
-<img src="Wireframe3.pdf">
+<img src="Wireframe2.png">
+<img src="Wireframe3.png">
 <img src="Wireframe4.jpg">
 <img src="Wireframe5.jpg">
 <img src="Wireframe6.jpg">
