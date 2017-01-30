@@ -68,7 +68,7 @@ var $submitButton = $('.submit');
 var $questionBox = $('.questionbox');
 var $autoFill = $('.autofill');
 
-var hints = ["This is hint one", 'This is hint two', "This is hint three", "This is hint four"];
+var hints = ["Museum located in the vibrant neighborhood of Chelsea", 'Abbreviation for a popular Chelsea gallery', "A museum with four locations worldwide", "A museum located between the High Line and the Hudson River"];
 
 var clickedBox;
 

@@ -35,10 +35,10 @@ p {
 
 .title {
   position:absolute;
-  left:830px;
-  top:25px;
+  left:802px;
+  top:29px;
   flex:0;
-  font-size:40px;
+  font-size:35px;
   text-align:center;
   font-family:Helvetica;
   font-color:#2c3e50;
