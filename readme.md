@@ -7,7 +7,7 @@
   - Event listeners ("click", "blur", "keydown")
   - If/else statements
   - Two counters ("counter", "victorycounter")
-  - Two alert functions ("Hints", "Submit")
+  - Alert function ("Hints")
 * ** CSS 
   - Position:absolute
   - Flexbox 
