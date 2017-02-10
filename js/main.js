@@ -72,25 +72,25 @@ var hints = ["Museum located in the vibrant neighborhood of Chelsea", 'Abbreviat
 
 var clickedBox;
 
-$autoFill.on('click', function() {
+$autoFill.one('click', function() {
 
-    $box3.append('R')
-    $box5.append('A')
-    $box8.append('W')
-    $box10.append('G')
-    $box12.append('H')
-    $box14.append('U')
-    $box15.append('B')
-    $box16.append('I')
-    $box17.append('N')
-    $box18.append('G')
-    $box20.append('T')
-    $box22.append('G')
-    $box23.append('O')
+    $box3.append('R');
+    $box5.append('A');
+    $box8.append('W');
+    $box10.append('G');
+    $box12.append('H');
+    $box14.append('U');
+    $box15.append('B');
+    $box16.append('I');
+    $box17.append('N');
+    $box18.append('G');
+    $box20.append('T');
+    $box22.append('G');
+    $box23.append('O');
 
     $submitButton.on('click', function() {
-    $(".game-boxes input").css('background-color', 'black');
-  });
+      $(".game-boxes input").css('background-color', 'black');
+    });
 });
 
 $(".game-boxes input").on("blur", function() {
@@ -98,19 +98,21 @@ $(".game-boxes input").on("blur", function() {
     var ourAnswer = $(this).val();
 
     if (expectedAnswer === ourAnswer) {
-    console.log("Nice!");
-    victorycounter +=1;
+      console.log("Nice!");
+      victorycounter +=1;
     } else {
-    console.log("Wrong");
+      console.log("Wrong");
     }
+
     console.log(victorycounter)
 
     $submitButton.on('click', function() {
+
     if (expectedAnswer === ourAnswer) {
-    $(".game-boxes input").css('background-color', 'black');
+      $(".game-boxes input").css('background-color', 'black');
     } else {
       $(".game-boxes input").css('background-color', 'red');
-   };
+    }
  });
 });
 
@@ -124,7 +126,6 @@ $hintButton.on("click", function() {
 
   };
 });
-
 
 $box3.on('click keydown', function() {
     clickedBox = 1;
@@ -440,13 +441,3 @@ $box23.on('click keydown', function() {
   };
 });
 });
-
-
-
-
-
-
-
-
-
-
